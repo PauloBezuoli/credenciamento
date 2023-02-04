@@ -32,7 +32,6 @@ header > div#top-image {
     background-image: url(imagens/768.png);
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 400px;
     max-width: 100vw;
     height: 80px;
 }
