@@ -20,6 +20,7 @@ header, main {
     margin: auto;
 }
 
+
 header > h6 {
     background-color: #000000;
     color: white;
@@ -37,6 +38,37 @@ header > div#top-image {
 }
 
 main > h1 {
+    font-size: 1em;
+    padding: 5px 5px 0px 5px;
+}
+
+main > p#autor {
+    font-size: 0.7em;
+    padding: 0px 5px 5px 5px;
+}
+
+main > p.data-horario-titulo {
+    font-size: 0.8em;
+    padding: 5px;
+    padding-left: 0px;
+    display: inline;
+    position: absolute;
+    transform: translateY(8px);
+}
+
+main > p.data-horario {
+    font-size: 0.8em;
+    padding: 5px;
+    padding-left: 0px;
+    text-indent: 2.3em;
+}
+
+span {
+    padding: 10px 0px 0px 5px;
     font-size: 0.9em;
 }
 
+hr {
+    width: 180px;
+    margin-left: 2em;
+}
